@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Large Dataset Directories (keep labels, exclude images for repo size)
+clean\ datasets/
+datasets/
+data/
+raw_data/
+
+# Output files
+*.log
+*.txt
+validation_report.txt
+analysis_report.txt
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+
+# Project-specific
+.env
+*.tmp
+temp/
+cache/
+
+# Temporary files
+*.backup
+*.old
